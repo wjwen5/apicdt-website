@@ -1,0 +1,157 @@
+.css-selector {
+    background: linear-gradient(274deg, #fbc2eb, #d4c2ec, #fbc2eb, #a6c1ee);
+    background-size: 800% 800%;
+
+    -webkit-animation: MovingGradient 15s ease infinite;
+    -moz-animation: MovingGradient 15s ease infinite;
+    animation: MovingGradient 15s ease infinite;
+}
+
+@-webkit-keyframes MovingGradient {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@-moz-keyframes MovingGradient {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@keyframes MovingGradient {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+
+@font-face {
+  font-family: XiaoBiaoSong;
+  src: url("fonts/FZxiaobiaosong.ttf")format("truetype");
+}
+
+.info-block{
+	height:100%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	font-family: XiaoBiaoSong;
+	text-align:center;
+	color: white;
+	font-size: 2vw;
+}
+
+.logo-block{
+	padding-left: 20%;
+	height:50%;
+	height: 100%;
+  background-color: #F5F5F5;
+  background-image:   
+	url("image/bg-top.png"), 
+	url("image/bg-middle.png"),
+	url("image/bg-bottom.png");
+  background-repeat: repeat-x;
+  background-position: 
+	0 20%,
+	0 10%,
+	0 50%;
+  background-size: 
+	2500px,
+	1200px,
+	1800px;
+  animation: 50s para infinite linear;
+	background-attachment: fixed;
+  }
+
+@keyframes para {
+  100% {
+    background-position: 
+      -5000px 20%,
+      -800px 95%,
+      500px 50%;
+    }
+  }
+
+
+.ten-logo{
+	position:relative;
+	z-index: 1;
+	-webkit-animation-name: ten-animation;
+	-webkit-animation-duration:3s;
+	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-timing-function:ease-out;
+}
+
+@-webkit-keyframes ten-animation{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes bian-animation{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.25;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.bian-logo{
+	position: relative;
+	z-index: 2;
+	left:10%;
+	top:-50%;
+	-webkit-animation-name: bian-animation;
+	-webkit-animation-duration:3s;
+	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-timing-function:ease-out;
+}
+@media screen and (max-width:600px){
+	div.bian-logo{
+		padding-top:-120%;
+	}
+	div.header{
+		padding-top: 0;
+		text-align: center;
+		font-size: 5vw;
+	}
+}
+.header{
+	position:relative;
+	z-index:3;
+	padding-top: 20%;
+	left: -10%;
+	font-family: 'Ma Shan Zheng', cursive;
+	text-align: left;
+	-webkit-animation-name: header-animation;
+	-webkit-animation-duration:3s;
+	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-timing-function:ease-out;
+	
+}
+@-webkit-keyframes header-animation{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+h1{
+	text-shadow: 2px 2px 2px #3b454c;
+}
+h1.eng-title{
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	line-height: 0.8;
+}
