@@ -54,9 +54,9 @@
 	0 10%,
 	0 50%;
   background-size: 
-	2500px,
-	1200px,
-	1800px;
+	2800px,
+	1600px,
+	2000px;
   animation: 50s para infinite linear;
 	background-attachment: fixed;
   }
@@ -123,7 +123,7 @@
 		font-size: 5vw;
 	}
 	div.logo-block{
-		height:200vh;
+		height:2000;
 	}
 }
 .header{
