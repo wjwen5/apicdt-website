@@ -14,6 +14,12 @@ footer a {
 
 footer a:hover {
   color: #FA944B;
+  text-decoration: none;
+}
+
+dl{
+  display: inline-block;
+  margin-right: 50px;
 }
 
 .copy {
@@ -48,12 +54,11 @@ ul.social-network li {
 }
 
 .social-network a.icoweibo:hover {
-  background-color: #df2029;
+  background-color: #e6162d;
 }
 
-
-.social-network a.icoFacebook:hover i,
 .social-network a.icoweibo:hover i,
+.social-network a.icoFacebook:hover i,
 .social-network a.icoinstagram:hover i,
 .social-network a.icoyoutube:hover i{
   color: #fff;
