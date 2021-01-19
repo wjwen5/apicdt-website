@@ -1,10 +1,15 @@
+/*footer design*/
 footer {
   background: #16222A;
   background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
-  background: linear-gradient(59deg, #3A6073, #16222A);
+  background: -o-linear-gradient(59deg, #3A6073, #16222A);
   color: white;
   padding-top: 3%;
-  margin-top: 15px;
+  margin-top: 6px;
+}
+
+footer h4{
+  font-weight: bold;
 }
 
 footer a {
@@ -64,15 +69,11 @@ ul.social-network li {
   color: #fff;
 }
 
-.social-network a.socialIcon:hover,
-.socialHoverClass {
-  color: #44BCDD;
-}
-
 .social-circle li a {
   display: inline-block;
   position: relative;
-  margin: 0 auto 0 auto;
+  margin-top: 5px;
+  margin-right: 5px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -88,8 +89,7 @@ ul.social-network li {
   text-align: center;
 }
 
-.social-circle li a:hover i,
-.triggeredHover {
+.social-circle li a:hover i{
   -moz-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   -ms--transform: rotate(360deg);
@@ -112,4 +112,17 @@ ul.social-network li {
 
 .social-network a {
   background-color: #F9F9F9;  
+}
+
+/*sponsor design*/
+#sponsor_section{
+  margin-top: 6px;
+  padding: 3% 4% 1% 6%;
+  background: rgb(255,203,247);
+  background: linear-gradient(90deg, rgba(255,203,247,0.4) 27%, rgba(255,175,237,0.4) 54%, rgba(252,161,231,0.4) 74%, rgba(255,140,229,0.4) 97%);
+}
+
+#sponsor_section img{
+  width: 66%;
+  height: 66%;
 }
