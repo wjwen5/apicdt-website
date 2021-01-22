@@ -90,24 +90,24 @@ html,body
   background-color: #6353F0;
   border: none;
   margin-top:5%;
+  font-size:1.3vw;
 }
 
 .logo{
   padding-left: 5%;
-  padding-top:15%;
-
+  padding-top:12%;
+  /* height:50%; */
 }
 
 .ten-logo{
-	position:relative;
+	position:absolute;
 	z-index: 1;
 }
 
 .bian-logo{
-	position: relative;
+	position:absolute;
 	z-index: 2;
-	left:10%;
-	top:-50%;
+	right:-5%;
 }
 
 .remarks{
@@ -115,5 +115,37 @@ html,body
   color:#919191;
   padding-left: 3%;
   margin-top:1%;
+}
+
+.form-control{
+  font-size: 1vw;
+}
+
+@media screen and (max-width:768px){
+	.bian-logo{
+		display:none;
+	}
+	.ten-logo{
+    display:none;
+  }
+  .main_block{
+    width:80%;
+  }
+  .register_header{
+    font-size: 4vw;
+  }
+  .form-control{
+    font-size: 2.3vw;
+    height: 1.8rem;
+  }
+  .formHeader{
+    font-size: 3vw;
+  }
+  .btn{
+    font-size:2vw;
+  }
+  .remarks{
+    font-size:1.5vw;
+  }
 }
 
